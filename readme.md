@@ -1,5 +1,6 @@
 # JavaScript Objects
 
+<!--11:06 WDI5 -->
 <!--11:25 5 minutes -->
 
 [Hook]: # (-Code this out- So we've seen arrays, and how they can be a very helpful method to store data.  So my program always needs access to this fourth element in the array.  How do I get that?  Great.  However, what happens if I remove an item from the middle of my array? -Indices shift- Now how do I get that same element?  Also, if we hire a new developer tomorrow, and he takes a look at my code, how is he/she supposed to know what array[3] means?  With key-value stores, we can solve both those issues.)
@@ -19,6 +20,7 @@
 
 <!--Note: we will go into chrome dev tools in more detail later today, but for now we just need to be able to open it.-->
 
+<!--WDI5 11:10 -->
 <!--11:30 10 minutes -->
 
 ## Opening
@@ -75,6 +77,7 @@ function Classroom(name, numberOfStudents) {
 var wdi = new Classroom("WDI 2 Denver", 12);
 ```
 
+<!--11:16 WDI 5 -->
 <!--Actually 11:38-->
 <!--11:45 10 minutes -->
 
@@ -114,6 +117,7 @@ Create an object called ``classroom`` with properties, name and campus. The name
   ```
 </details>
 
+<!--WDI5 11:19, coming back 11:23 -->
 <!--Actually 11:44 -->
 <!--11:51 WDI4 -->
 
@@ -154,6 +158,7 @@ classroom
 => {name: "WDI", campus: "Denver"}
 ```
 
+<!--WDI5 11:27 -->
 <!--Actually 11:51-->
 <!--11:56 WDI4-->
 <!--11:55 5 minutes -->
@@ -212,6 +217,7 @@ classroom.sayHello()
 => Hola
 ```
 
+<!--11:34 WDI5 -->
 <!--11:58-->
 <!--12:05 -->
 <!-- 12:00 5 minutes -->
@@ -252,7 +258,7 @@ student == student2
 => false
 
 student === student
-=> true
+=> false
 ```
 
 Moreover, objects are assigned by reference. Another way to say this is if we create a new variable and assign the 
@@ -281,6 +287,8 @@ student1 === student2
 [CFU]: # (Stop and jot on the solutions to student1.name and the equality)
 
 What? Why is that?  Well, even though we had two names we only had a single object. Both of these variables are pointing to the same thing.  More specifically, they are pointing to the *same place in memory*.
+
+<!--WDI5 11:43 -->
 <!--12:07-->
 <!--12:16 WDI4 -->
 <!--12:10 18 minutes -->
@@ -302,8 +310,9 @@ What? Why is that?  Well, even though we had two names we only had a single obje
 
 - Exercise your monkeys by retrieving their properties and using their methods in the Dev Tools console. Practice using both syntaxes for retrieving properties (dot notation and brackets).
 
-[If Time]: # (A new requirement has just come. We need to start keeping track of color. Add a color property to each monkey.)
+[If Time]: # (A new requirement has just come in. We need to start keeping track of color. Add a color property to each monkey.)
 
+<!--WDI5 showed solution at 12:04, done at 12:08  -->
 <!--WDI4 Showed Solution at 12:28 -->
 <!--Actually 12:27 to show my solution -->
 <!--12:28 2 minutes -->
