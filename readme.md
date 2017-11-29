@@ -204,9 +204,9 @@ classroom.classInfo()
 => This is WDI 3 and it starts on 10/31/2016
 ```
 
-#### Assigning a previously-defined function
+<!-- #### Assigning a previously-defined function-->
 
-We can attach regular functions to objects as methods, even after they are created.
+<!-- We can attach regular functions to objects as methods, even after they are created. 
 
 ```
 var sayHello = function() { console.log("Hola"); }
@@ -216,7 +216,7 @@ classroom.sayHello = sayHello;
 classroom.sayHello()
 => Hola
 ```
-
+-->
 <!--11:34 WDI5 -->
 <!--11:58-->
 <!--12:05 -->
@@ -258,7 +258,7 @@ student == student2
 => false
 
 student === student
-=> false
+=> true
 ```
 
 Moreover, objects are assigned by reference. Another way to say this is if we create a new variable and assign the 
